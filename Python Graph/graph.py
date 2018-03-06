@@ -32,8 +32,7 @@ class Graph(abc.ABC):
         pass
 
 
-
-#########################################################################################
+############################################################################################
 "Represent a graph as an adjacency matrix. A cell in the matrix has a  value when there exists an " \
 "edge between the vertex represented by the row and the column numbers.Weighted graphs can hold values>1" \
 "A value of 0 in the cell indicates that there is no edge"
